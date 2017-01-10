@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- REMOVE ME IF YOU INCLUDE CSS THROUGH JAVASCRIPT -->
+    <link rel="stylesheet" href="index.tmpl.css">
+    <!-- REMOVE ME IF YOU INCLUDE CSS THROUGH JAVASCRIPT -->
+    <title>React App</title>
+</head>
+<body>
+<div id="root">
+<!-- DEMO ONLY! PLEASE REMOVE ME! -->
+<!-- START -->
+    <div class="app">
+        <nav class="app-nav">
+            <ul>
+                <li class="app-nav-item selected">
+                    <a>Items</a>
+                </li>
+                <li class="app-nav-item">
+                    <a>Cart</a>
+                </li>
+            </ul>
+            <div class="app-cart-summary">
+                <a>
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i> 2 items ($458)
+                </a>
+            </div>
+        </nav>
+        <main class="app-content">
+            <ul class="itempage-items">
+                <li class="itempage-item">
+                    <div class="item">
+                        <div class="item-left">
+                            <div class="item-image"></div>
+                            <div class="item-title">Item Title</div>
+                            <div class="item-description">Item Description</div>
+                        </div>
+                        <div class="item-right">
+                            <div class="item-price">$229</div>
+                            <button class="item-addToCart">Add to Cart</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="itempage-item">
+                    <div class="item">
+                        <div class="item-left">
+                            <div class="item-image"></div>
+                            <div class="item-title">Item Title</div>
+                            <div class="item-description">Item Description</div>
+                        </div>
+                        <div class="item-right">
+                            <div class="item-price">$279</div>
+                            <button class="item-addToCart">Add to Cart</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="itempage-item">
+                    <div class="item">
+                        <div class="item-left">
+                            <div class="item-image"></div>
+                            <div class="item-title">Item Title</div>
+                            <div class="item-description">Item Description</div>
+                        </div>
+                        <div class="item-right">
+                            <div class="item-price">$749.99</div>
+                            <button class="item-addToCart">Add to Cart</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <!-- I AM JUST SEPARATING ITEMS PAGE AND CART PAGE, PLEASE IGNORE ME -->
+            <hr class="ignore_me_please" style="border: 0; border-bottom: 2px solid #508FCA">
+            <!-- I AM JUST SEPARATING ITEMS PAGE AND CART PAGE, PLEASE IGNORE ME -->
+            <div class="cart-container">
+                <ul class="cartpage-items">
+                    <li class="cartpage-item">
+                        <div class="item">
+                            <div class="item-left">
+                                <div class="item-image"></div>
+                                <div class="item-title">Item Title</div>
+                                <div class="item-description">Item Description</div>
+                            </div>
+                            <div class="item-right">
+                                <div class="item-price">$229</div>
+                                <div class="cartitem-controls">
+                                    <button class="cartitem-removeOne">-</button>
+                                    <span class="cartitem-count">2</span>
+                                    <button class="cartitem-addOne">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="cartpage-total">
+                    Total: $458
+                </div>
+            </div>
+        </main>
+    </div>
+<!-- END -->
+<!-- DEMO ONLY! PLEASE REMOVE ME! -->
+</div>
+</body>
+</html>
